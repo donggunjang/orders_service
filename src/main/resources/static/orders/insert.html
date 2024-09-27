@@ -10,7 +10,7 @@
     		
     		// 도서명, 도서번호 출력
     		$.ajax({
-    			url:"http://52.78.163.182:8080/book/list",    			
+    			url:"http://15.164.111.46:8080/book/list",    			
     			success:function(res){
     				$.each(res, function(){
     					let row = $("<option></option>").html(this.bookname).attr("value",this.bookid);
